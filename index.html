@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huzefa Jamil Syed | Freelance Graphic Designer & Digital Creative</title>
+    <meta name="description"
+        content="I create clean, eye-catching digital designs and help clients bring their ideas to life with professional visuals.">
+
+    <!-- Favicon (Browser Tab Icon) -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Loading Overlay -->
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Huzefa<span>.Creative</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-nav">Let's Talk</a>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="close-menu"><i class="fa-solid fa-xmark"></i></div>
+        <ul class="mobile-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section-padding">
+            <div class="glow glow-1"></div>
+            <div class="glow glow-2"></div>
+            <div class="container hero-content">
+                <div class="hero-text reveal">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="glitch-text" data-text="Huzefa Jamil Syed">Huzefa Jamil Syed</h1>
+                    <h2 class="title">Freelance Graphic Designer & <span class="cyan-text">Digital Creative</span></h2>
+                    <p class="intro">
+                        I create clean, eye-catching digital designs and help clients bring their ideas to life with
+                        professional visuals.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image reveal">
+                    <div class="image-wrapper">
+                        <img src="profile.png" alt="Huzefa Jamil Syed">
+                        <div class="image-border"></div>
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Background particles/grid placeholder -->
+            <div class="hero-bg-grid"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>About <span class="cyan-text">Me</span></h2>
+                    <div class="line"></div>
+                </div>
+                <div class="about-content glass-panel reveal">
+                    <div class="about-text">
+                        <p>I am a versatile freelance graphic designer passionate about visual storytelling. Whether
+                            it's crafting memorable logos, designing striking posters, or building cohesive branding
+                            materials and web visuals, I adapt my style to fit each client's unique vision.</p>
+                        <p>From minimal and professional to bold, modern, and playful aesthetics, my focus is always on
+                            clean layouts, strong typography, and balanced colors.</p>
+                        <p>I can work from existing client ideas, reference material, or completely from scratch.
+                            Reliable, detail-oriented, and open to feedback, I'm dedicated to delivering high-quality
+                            designs that exceed expectations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding relative">
+            <div class="glow glow-3"></div>
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>My <span class="cyan-text">Skills</span></h2>
+                    <div class="line"></div>
+                    <p class="subtitle">Click a card to learn more</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card glass-panel reveal" data-skill="editing">
+                        <i class="fa-solid fa-wand-magic-sparkles icon"></i>
+                        <h3>Editing</h3>
+                    </div>
+                    <div class="skill-card glass-panel reveal" data-skill="graphic-design"
+                        style="transition-delay: 0.1s">
+                        <i class="fa-solid fa-pen-nib icon"></i>
+                        <h3>Graphic Design</h3>
+                    </div>
+                    <div class="skill-card glass-panel reveal" data-skill="banner-design"
+                        style="transition-delay: 0.2s">
+                        <i class="fa-solid fa-image icon"></i>
+                        <h3>Banner Design</h3>
+                    </div>
+                    <div class="skill-card glass-panel reveal" data-skill="logo-design" style="transition-delay: 0.3s">
+                        <i class="fa-solid fa-shapes icon"></i>
+                        <h3>Logo Design</h3>
+                    </div>
+                    <div class="skill-card glass-panel reveal" data-skill="photo-editing"
+                        style="transition-delay: 0.4s">
+                        <i class="fa-solid fa-camera-retro icon"></i>
+                        <h3>Photo Editing</h3>
+                    </div>
+                    <div class="skill-card glass-panel reveal" data-skill="poster-design"
+                        style="transition-delay: 0.5s">
+                        <i class="fa-solid fa-file-image icon"></i>
+                        <h3>Poster Design</h3>
+                    </div>
+                    <div class="skill-card glass-panel reveal" data-skill="flyer-design" style="transition-delay: 0.6s">
+                        <i class="fa-solid fa-note-sticky icon"></i>
+                        <h3>Flyer Design</h3>
+                    </div>
+                    <div class="skill-card glass-panel reveal" data-skill="video-editing"
+                        style="transition-delay: 0.7s">
+                        <i class="fa-solid fa-film icon"></i>
+                        <h3>Video Editing</h3>
+                    </div>
+                    <div class="skill-card glass-panel reveal" data-skill="web-dev" style="transition-delay: 0.8s">
+                        <i class="fa-solid fa-code icon"></i>
+                        <h3>Web Development</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>My <span class="cyan-text">Services</span></h2>
+                    <div class="line"></div>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card glass-panel reveal">
+                        <i class="fa-solid fa-shapes icon"></i>
+                        <h3>Logo Design</h3>
+                        <p>Memorable, minimalist, or bold logo concepts tailored for your brand identity.</p>
+                        <span class="price">Starting at RM 10</span>
+                    </div>
+                    <div class="service-card glass-panel reveal" style="transition-delay: 0.1s">
+                        <i class="fa-solid fa-share-nodes icon"></i>
+                        <h3>Social Media Posts</h3>
+                        <p>Engaging templates and graphics to boost your engagement across platforms.</p>
+                        <span class="price">Starting at RM 5</span>
+                    </div>
+                    <div class="service-card glass-panel reveal" style="transition-delay: 0.2s">
+                        <i class="fa-solid fa-scroll icon"></i>
+                        <h3>Posters / Flyers</h3>
+                        <p>Eye-catching promotional event posters and marketing flyers.</p>
+                        <span class="price">Starting at RM 10</span>
+                    </div>
+                    <div class="service-card glass-panel reveal" style="transition-delay: 0.3s">
+                        <i class="fa-brands fa-youtube icon"></i>
+                        <h3>Thumbnails / Banners</h3>
+                        <p>High-conversion YouTube thumbnails, Twitch, and web banners.</p>
+                        <span class="price">Starting at RM 5</span>
+                    </div>
+                    <div class="service-card glass-panel reveal" style="transition-delay: 0.4s">
+                        <i class="fa-solid fa-video icon"></i>
+                        <h3>Basic Video Edits</h3>
+                        <p>Clean cuts, transitions, basic color grading and text overlays.</p>
+                        <span class="price">Starting at RM 15</span>
+                    </div>
+                    <div class="service-card glass-panel reveal" style="transition-delay: 0.5s">
+                        <i class="fa-solid fa-laptop-code icon"></i>
+                        <h3>Website Development</h3>
+                        <p>Building responsive, modern landing pages and portfolios that look great on any device.</p>
+                        <span class="price">Starting at RM 20</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing section-padding">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Pricing <span class="cyan-text">Packages</span></h2>
+                    <div class="line"></div>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card glass-panel reveal">
+                        <h3>Starter</h3>
+                        <div class="price-tag">
+                            <span class="currency">RM</span><span class="amount">5</span>
+                        </div>
+                        <p class="pricing-desc">Perfect for small creators needing high-quality quick assets.</p>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check"></i> 1 Premium Concept</li>
+                            <li><i class="fa-solid fa-check"></i> High Resolution</li>
+                            <li><i class="fa-solid fa-check"></i> 2 Revisions</li>
+                            <li><i class="fa-solid fa-check" style="color: var(--primary);"></i> Source File</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary" style="width: 100%;">Get Started</a>
+                    </div>
+                    <div class="pricing-card glass-panel highlight reveal" style="transition-delay: 0.1s">
+                        <div class="popular-badge">Most Popular</div>
+                        <h3>Pro</h3>
+                        <div class="price-tag">
+                            <span class="currency">RM</span><span class="amount">10</span>
+                        </div>
+                        <p class="pricing-desc">The industry standard choice for professional branding.</p>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check"></i> 3 Premium Concepts</li>
+                            <li><i class="fa-solid fa-check"></i> High Resolution & Vector</li>
+                            <li><i class="fa-solid fa-check"></i> 5 Revisions</li>
+                            <li><i class="fa-solid fa-check"></i> Full Source Files</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary" style="width: 100%;">Get Started</a>
+                    </div>
+                    <div class="pricing-card glass-panel reveal" style="transition-delay: 0.2s">
+                        <h3>Elite</h3>
+                        <div class="price-tag">
+                            <span class="currency">RM</span><span class="amount">15</span>
+                        </div>
+                        <p class="pricing-desc">The complete premium experience for serious businesses.</p>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check"></i> 5 Elite Concepts</li>
+                            <li><i class="fa-solid fa-check"></i> Full Brand Identity</li>
+                            <li><i class="fa-solid fa-check"></i> Unlimited Revisions</li>
+                            <li><i class="fa-solid fa-check"></i> Social Media Brand Kit</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary" style="width: 100%;">Get Started</a>
+                    </div>
+                    <!-- Special Bundle Deal -->
+                    <div class="pricing-card glass-panel deal-card reveal"
+                        style="transition-delay: 0.3s; border-color: #ff00ff; box-shadow: 0 0 20px rgba(255, 0, 255, 0.15);">
+                        <div class="popular-badge" style="background: #ff00ff;">Limited Offer</div>
+                        <h3>Video Bundle</h3>
+                        <div class="price-tag">
+                            <span class="currency">RM</span><span class="amount">20</span>
+                        </div>
+                        <p class="pricing-desc">Everything you need for a viral video in one package.</p>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-video" style="color: #ff00ff;"></i> Premium Video Edit</li>
+                            <li><i class="fa-solid fa-plus" style="color: #ff00ff;"></i> <strong>FREE</strong> Custom
+                                Thumbnail</li>
+                            <li><i class="fa-solid fa-check"></i> 4K Quality Rendering</li>
+                            <li><i class="fa-solid fa-check"></i> Fast 48h Delivery</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary"
+                            style="width: 100%; border-color: #ff00ff; color: #fff;">Claim Offer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section-padding relative">
+            <div class="glow glow-4"></div>
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Recent <span class="cyan-text">Work</span></h2>
+                    <div class="line"></div>
+                </div>
+                <!-- We will use placeholders with cool tech styling -->
+                <div class="portfolio-grid">
+                    <!-- Featured Custom Alignment Project -->
+                    <div class="portfolio-item glass-panel reveal"
+                        style="grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 20px; align-items: center; padding: 25px; margin-bottom: 20px;">
+                        <img src="porsche-gt3rs.png" class="portfolio-img" alt="Porsche GT3 RS Poster"
+                            style="flex: 1; min-width: 250px; max-width: 400px; object-fit: contain; border-radius: 12px; height: auto; margin: 0 auto; display: block;">
+                        <div class="portfolio-info" style="flex: 2; min-width: 280px; text-align: left; padding: 10px;">
+                            <h3 style="font-size: 2.2rem; color: var(--cyan); margin-bottom: 15px; font-weight: 700;">
+                                Porsche GT3 RS Poster</h3>
+                            <p
+                                style="font-size: 1.1rem; line-height: 1.6; color: var(--text-main); margin-bottom: 20px;">
+                                A high-impact promotional flyer featuring custom alignment and striking typography. This
+                                piece uses a vibrant green and subtle grey contrast to highlight detailed automotive
+                                specs, creating an aggressive, premium aesthetic typical of modern motorsport branding.
+                            </p>
+                            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                <span
+                                    style="background: rgba(0, 240, 255, 0.1); border: 1px solid var(--cyan); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; color: var(--cyan);">Poster
+                                    Design</span>
+                                <span
+                                    style="background: rgba(0, 240, 255, 0.1); border: 1px solid var(--cyan); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; color: var(--cyan);">Typography</span>
+                                <span
+                                    style="background: rgba(0, 240, 255, 0.1); border: 1px solid var(--cyan); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; color: var(--cyan);">Vehicle
+                                    Branding</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item glass-panel reveal">
+                        <img src="project1.jpg" class="portfolio-img" alt="Project 1"
+                            style="width: 100%; object-fit: cover; display: block; border-radius: 12px; height: 250px; margin-bottom: 20px;">
+                        <div class="portfolio-info">
+                            <h3>Professional Commission</h3>
+                            <p>Custom Graphic Design Work</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-panel reveal" style="transition-delay: 0.1s">
+                        <img src="project2.jpg" class="portfolio-img" alt="Project 2"
+                            style="width: 100%; object-fit: cover; display: block; border-radius: 12px; height: 250px; margin-bottom: 20px;">
+                        <div class="portfolio-info">
+                            <h3>Freelance Artifact</h3>
+                            <p>Visual Brand Concept</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-panel reveal" style="transition-delay: 0.2s">
+                        <img src="project3.png" class="portfolio-img" alt="Project 3"
+                            style="width: 100%; object-fit: cover; display: block; border-radius: 12px; height: 250px; margin-bottom: 20px;">
+                        <div class="portfolio-info">
+                            <h3>Web UI Mockup</h3>
+                            <p>Dark Theme Dashboard Concept</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item glass-panel reveal" style="transition-delay: 0.3s">
+                        <img src="project4.png" class="portfolio-img" alt="Project 4"
+                            style="width: 100%; object-fit: cover; display: block; border-radius: 12px; height: 250px; margin-bottom: 20px;">
+                        <div class="portfolio-info">
+                            <h3>Esports Marketing</h3>
+                            <p>Neon Mascot & Team Logo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials section-padding">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Client <span class="cyan-text">Reviews</span></h2>
+                    <div class="line"></div>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card glass-panel reveal">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"Huzefa absolutely nailed our gaming clan's logo. He understood exactly
+                            the sleek, aggressive look we wanted. Fast turnaround and extremely polite!"</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="client-details">
+                                <h4>Alex M.</h4>
+                                <span>Clan Leader, Zenith</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card glass-panel reveal" style="transition-delay: 0.2s">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"I needed some quick promotional flyers and social media posts for my
+                            startup. The designs were top-tier, exceptionally clean, and very professional. Highly
+                            recommended!"</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="client-details">
+                                <h4>Sarah J.</h4>
+                                <span>Marketing Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="leave-review-wrapper glass-panel reveal"
+                    style="margin-top: 50px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    <div class="contact-form">
+                        <h3 style="font-size: 1.8rem; margin-bottom: 10px; font-family: var(--font-heading);">Submit a
+                            <span class="cyan-text">Review</span></h3>
+                        <p style="color: var(--text-muted); margin-bottom: 20px;">Have we worked together? Let others
+                            know about your experience!</p>
+                        <form id="review-form" name="reviews" method="POST" action="https://api.staticforms.xyz/submit">
+                            <input type="hidden" name="accessKey" value="sf_eb32d0faf16bd6395584a10b">
+                            <div class="form-group" style="display: flex; gap: 20px; flex-wrap: wrap;">
+                                <style>
+                                    #review-form select option {
+                                        background-color: #0a0a0f;
+                                        color: #f8fafc;
+                                    }
+                                </style>
+                                <input type="text" name="client_name" placeholder="Your Name" required
+                                    style="flex: 1; min-width: 200px;">
+                                <select name="rating" required
+                                    style="flex: 1; min-width: 200px; padding: 15px 40px 15px 20px; background: rgba(10, 10, 15, 0.5) url('data:image/svg+xml;utf8,<svg fill=%22%2300f0ff%22 height=%2224%22 viewBox=%220 0 24 24%22 width=%2224%22 xmlns=%22http://www.w3.org/2000/svg%22><path d=%22M7 10l5 5 5-5z%22/></svg>') no-repeat right 15px center; -webkit-appearance: none; appearance: none; border: 1px solid var(--border); border-radius: 12px; color: var(--text-main); font-family: var(--font-body); font-size: 1rem; outline: none; transition: var(--transition); cursor: pointer;">
+                                    <option value="" disabled selected>Select Rating</option>
+                                    <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                                    <option value="4">⭐⭐⭐⭐ Good</option>
+                                    <option value="3">⭐⭐⭐ Average</option>
+                                    <option value="2">⭐⭐ Poor</option>
+                                    <option value="1">⭐ Terrible</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="review_message" rows="4" placeholder="Write your review here..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">Submit Review <i
+                                    class="fa-solid fa-comment-dots"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq section-padding">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Common <span class="cyan-text">Questions</span></h2>
+                    <div class="line"></div>
+                </div>
+                <div class="faq-container reveal">
+                    <div class="faq-item glass-panel">
+                        <div class="faq-question">
+                            <h3>How many revisions do I get?</h3>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>I typically offer 2 to 3 rounds of revisions for every project. My goal is to make sure
+                                you are 100% happy with the final design. Any major changes outside the original project
+                                scope may incur a small extra fee.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item glass-panel">
+                        <div class="faq-question">
+                            <h3>What are your payment terms?</h3>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>For most projects, I require a 50% upfront deposit to begin work, with the remaining 50%
+                                due upon final approval before the raw high-resolution files are handed over.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item glass-panel">
+                        <div class="faq-question">
+                            <h3>How long does a logo design usually take?</h3>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>A completely custom logo design typically takes between 3 to 7 days, depending on the
+                                complexity and how quickly we communicate during the revision phases.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item glass-panel">
+                        <div class="faq-question">
+                            <h3>Will I get the source files?</h3>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! Once the final payment is cleared, you will receive all relevant high-resolution
+                                exports (PNG, JPG, PDF) as well as the original vector or source files (AI, PSD)
+                                depending on your package.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding relative">
+            <div class="glow glow-1"></div>
+            <div class="container">
+                <div class="contact-wrapper glass-panel reveal">
+                    <div class="contact-info">
+                        <h2>Let's <span class="cyan-text">work together</span></h2>
+                        <p>Have a project in mind or want to freshen up your brand? Drop me a message and let's bring
+                            your ideas to life.</p>
+
+                        <div class="contact-methods">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Huzefajamilsyed@gmail.com"
+                                target="_blank" class="contact-item">
+                                <div class="icon-box"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <span>Huzefajamilsyed@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="https://wa.me/60172167235" target="_blank" class="contact-item">
+                                <div class="icon-box"><i class="fa-brands fa-whatsapp"></i></div>
+                                <div>
+                                    <h4>WhatsApp</h4>
+                                    <span>+60 172167235</span>
+                                </div>
+                            </a>
+                            <a href="https://instagram.com/huzefa.creative" target="_blank" class="contact-item">
+                                <div class="icon-box"><i class="fa-brands fa-instagram"></i></div>
+                                <div>
+                                    <h4>Instagram</h4>
+                                    <span>@huzefa.creative</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form id="portfolio-form" name="contact" method="POST"
+                            action="https://api.staticforms.xyz/submit">
+                            <input type="hidden" name="accessKey" value="sf_eb32d0faf16bd6395584a10b">
+                            <div class="form-group">
+                                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="subject" id="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" placeholder="Your Message"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                                    class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">Huzefa<span>.Creative</span></div>
+            <div class="social-links"
+                style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin: 15px 0;">
+                <a href="https://www.fiverr.com/huz3efa/buying?source=avatar_menu_profile" target="_blank"
+                    title="Fiverr"><span
+                        style="font-family: var(--font-heading); font-weight: 800; font-size: 0.9rem;">fi</span></a>
+                <a href="https://www.upwork.com/freelancers/~01ccab50bf1f35ba66" target="_blank" title="Upwork"><span
+                        style="font-family: var(--font-heading); font-weight: 800; font-size: 0.9rem;">Up</span></a>
+                <a href="https://www.freelancer.com/u/HuzefaJamil" target="_blank" title="Freelancer.com"><span
+                        style="font-family: var(--font-heading); font-weight: 800; font-size: 0.9rem;">Fr</span></a>
+                <a href="https://www.guru.com/freelancers/huzefa-jamil-syed" target="_blank" title="Guru"><span
+                        style="font-family: var(--font-heading); font-weight: 800; font-size: 0.9rem;">Gu</span></a>
+                <a href="https://instagram.com/huzefa.creative" target="_blank" title="Instagram"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/60172167235" target="_blank" title="WhatsApp"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Huzefa.Creative. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Skill Modal Popup -->
+    <div class="modal-overlay" id="skillModal">
+        <div class="modal-content glass-panel">
+            <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <i class="modal-icon fa-solid fa-star"></i>
+                <h3 class="modal-title">Skill Name</h3>
+            </div>
+            <div class="modal-body">
+                <p class="modal-desc">Skill description goes here.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox Gallery Modal -->
+    <div class="lightbox-overlay" id="imageLightbox">
+        <button class="lightbox-close"><i class="fa-solid fa-xmark"></i></button>
+        <img class="lightbox-img" src="" alt="Full Screen Portfolio Image">
+    </div>
+
+    <!-- Form Success Modal -->
+    <div class="form-success-overlay" id="formSuccessModal">
+        <div class="form-success-card">
+            <div class="success-icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h3>Submission Received!</h3>
+            <p>Thank you for reaching out. I have received your message and will get back to you as soon as possible!
+            </p>
+            <button class="btn btn-primary btn-success-close">Awesome!</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
